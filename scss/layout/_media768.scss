@@ -1,0 +1,27 @@
+@media (min-width:768px) {
+    .hero .nav {
+        --state-hamburguer: scale(0);
+        --state-menu: translate(0);
+    }
+
+    .nav:target {
+        --state-close: scale(0);
+    }
+
+    .hero .nav .nav-links {
+        position: unset;
+        padding: 0;
+        background-color: unset;
+        gap: 1.5em;
+        grid-auto-flow: column;
+        align-content: unset;
+        transform: unset;
+        grid-column: -2/-1;
+        grid-row: 1/2;
+    }
+
+    .nav-link {
+        font-size: 1rem;
+        letter-spacing: none;
+    }
+}

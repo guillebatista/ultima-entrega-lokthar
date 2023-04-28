@@ -1,0 +1,22 @@
+@import "./animaciones";
+.click-aqui {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 1.3rem;
+
+    p {
+        font-size: 1rem;
+        color: white;
+    }
+
+    animation: highlight 3s ease-in-out infinite;
+}
+.img-index{
+    display: flex;
+    justify-content: center;
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}
