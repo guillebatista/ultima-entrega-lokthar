@@ -25,3 +25,19 @@
         letter-spacing: none;
     }
 }
+
+@media (min-width:768px) {
+    .footer-row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .footer-divs {
+        width: 50%;
+        padding: 0 15px;
+
+        h4 {
+            border-bottom: none;
+        }
+    }
+}

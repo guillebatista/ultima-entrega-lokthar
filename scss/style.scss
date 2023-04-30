@@ -1,11 +1,7 @@
 @import "./base/reset";
+@import "./base/type";
 @import "./layout/header";
 @import "./layout/footer";
 @import "./layout/media768";
+@import "./layout/media1024";
 @import "./layout/main-index";
-body {
-    font-family: 'Roboto', sans-serif;
-}
-.click-aqui {
-    background-color: rgb(109, 110, 110);
-}

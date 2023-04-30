@@ -8,7 +8,7 @@
 .hero {
     background-image:
         linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)),
-        url('../assets/imagen-de-prueba.jpg');
+        url('../assets/img/imagen-de-prueba.jpg');
     background-size: cover;
     min-height: 500px;
     height: 100vh;
@@ -55,6 +55,7 @@
         .nav-icon {
             width: 40px;
         }
+
 
         .nav-links {
             background-color: #00000096;
