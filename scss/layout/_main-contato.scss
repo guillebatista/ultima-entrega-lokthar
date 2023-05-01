@@ -1,0 +1,48 @@
+button[type="submit"] {
+    display: block;
+    margin: 0 auto;
+}
+
+h2 {
+    margin-top: 30px;
+}
+
+.formulario {
+    border: 2px solid #878787;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.newsletter {
+    background-color: #f2f2f2;
+    padding: 50px;
+    text-align: center;
+}
+
+.newsletter p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.newsletter input[type="email"] {
+    border-radius: 30px;
+    border: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+    width: 70%;
+}
+
+.newsletter button[type="submit"] {
+    background-color: #0095a5;
+    border-radius: 30px;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 20px;
+    width: 25%;
+}
+news {
+    display: flex;
+    align-items: center;
+}

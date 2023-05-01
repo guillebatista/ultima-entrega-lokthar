@@ -198,6 +198,26 @@ footer {
     justify-content: center;
     align-items: center;
   }
+  .contacto form {
+    margin: 0 auto;
+    padding: 0 20px;
+    max-width: 800px;
+  }
+  .contacto form h2 {
+    text-align: center;
+    color: rgba(0, 0, 0, 0.759);
+  }
+  .contacto .newsletter {
+    padding: 30px;
+  }
+  .newsletter input[type=email] {
+    margin-right: 0;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  .newsletter button[type=submit] {
+    width: 100%;
+  }
 }
 @media (min-width: 1024px) {
   .footer-divs {
@@ -413,6 +433,56 @@ p {
   max-width: 300px;
   height: auto;
   margin: 10px;
+}
+
+button[type=submit] {
+  display: block;
+  margin: 0 auto;
+}
+
+h2 {
+  margin-top: 30px;
+}
+
+.formulario {
+  border: 2px solid #878787;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.newsletter {
+  background-color: #f2f2f2;
+  padding: 50px;
+  text-align: center;
+}
+
+.newsletter p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.newsletter input[type=email] {
+  border-radius: 30px;
+  border: none;
+  padding: 10px 20px;
+  margin-right: 10px;
+  width: 70%;
+}
+
+.newsletter button[type=submit] {
+  background-color: #0095a5;
+  border-radius: 30px;
+  border: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 20px;
+  width: 25%;
+}
+
+news {
+  display: flex;
+  align-items: center;
 }
 
 /*# sourceMappingURL=style.css.map */
