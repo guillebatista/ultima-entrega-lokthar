@@ -23,14 +23,15 @@ footer {
     }
 
     h4 {
-        font-size: 35px;
-        color: #FFFFFF;
+        font-size: var(--main-font-size);
+        color: var(--main-color);
         margin-bottom: 25px;
         font-weight: 500;
-        border-bottom: 2px solid #00C3FF;
+        border-bottom: 2px solid var(--main-border-color);
         padding-bottom: 15px;
         display: inline-block;
     }
+    
 
     a {
         font-size: 18px;
