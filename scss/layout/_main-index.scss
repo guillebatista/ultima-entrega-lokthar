@@ -20,3 +20,15 @@
         height: auto;
     }
 }
+.img-index-2 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+    p {
+        text-align: center;
+    }
+}

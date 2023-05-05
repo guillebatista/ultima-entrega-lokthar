@@ -96,4 +96,19 @@
     .newsletter button[type="submit"] {
         width: 100%;
     }
+
+    main .img-index-2 {
+        flex-wrap: nowrap;
+
+        img {
+            width: 70%;
+        }
+
+        p {
+            font-size: 26px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
 }

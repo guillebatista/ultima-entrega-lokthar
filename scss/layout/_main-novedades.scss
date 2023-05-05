@@ -6,9 +6,9 @@
 }
 
 .desc-item {
-    background-color: #fbd1ac;
+
     flex-basis: 100%;
-    margin-bottom: 20px;
+
 }
 
 .desc-item img {
@@ -26,7 +26,8 @@
     flex-wrap: wrap;
     justify-content: center;
     min-height: 100vh;
-    background-color: #fcbc84;
+    background-image: radial-gradient(circle at 25% 50%, #2d2c2d, #888685, #e1e1e1);
+
 }
 
 .card {
@@ -59,7 +60,7 @@
 
     .back {
         transform: perspective(600px) rotateY(180deg);
-        background: #ff861d;
+        background: #ffe75e;
         padding: 15px;
         color: #000000;
         display: flex;
